@@ -53,6 +53,7 @@ main {
    }
     .mobileun aside {
         width: 100%;
+        order: -1;
 
     }
     .mobileun main {
@@ -60,12 +61,13 @@ main {
 
     }
     .mobiledeux {
-        flex-direction: column-reverse;
+        flex-direction: column;
    }
     .mobiledeux aside {
         width: 100%;
     }
     .mobiledeux main {
         width: 100%;
+        order: -1
 
 }
