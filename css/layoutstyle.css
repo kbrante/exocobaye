@@ -49,25 +49,23 @@ main {
     }
 
     .mobileun {
-        flex-wrap: wrap;
-    }
+        flex-direction: column;
+   }
     .mobileun aside {
         width: 100%;
-        height: 20em;
+
     }
     .mobileun main {
         width: 100%;
-        height: 20em;
+
     }
     .mobiledeux {
-        flex-wrap: wrap-reverse;
-    }
+        flex-direction: column-reverse;
+   }
     .mobiledeux aside {
         width: 100%;
-        height: 20em;
     }
     .mobiledeux main {
         width: 100%;
-        height: 20em;
 
 }
